@@ -24,7 +24,7 @@ const Form = ({txt}) => {
            {Err ? ( <Errors txt="This field is required"/>):null}
             <div className="row">
                 <div className="form-group col-md-8">
-                    <input onChange={handleInput} type="text" className="form-control form-control-lg" placeholder="Search any think" />
+                    <input onChange={handleInput} type="text" className="form-control form-control-lg" placeholder="Search any thing" />
                 </div>
                 <div className="form-group col-md-4">
                     <input type="submit" className="btn btn-primary btn-lg btn-block" value="Search" />
