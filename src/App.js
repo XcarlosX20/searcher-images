@@ -35,7 +35,8 @@ function App() {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1 className="display-4 text-center mb-3">Search a image</h1>
+        <h1 className="display-4 text-center mb-3">
+search something</h1>
         <Form txt={setKeyword} />
       </div>
       <ListImage images={images} />
